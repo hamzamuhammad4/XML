@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="Utf-8"?>
+<!DOCTYPE products
+[
+<!ELEMENT products (name,price,material,address,contact)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (perkg,perkg2)>
+<!ELEMENT perkg (#PCDATA)>
+<!ELEMENT perkg2 (#PCDATA)>
+<!ELEMENT material (#PCDATA)>
+<!ELEMENT address (village,area,shopnumber)>
+<!ELEMENT village (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT shopnumber (#PCDATA)>
+<!ELEMENT contact (email,facebook,contactnumber)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT facebook (#PCDATA)>
+<!ELEMENT contactnumber (#PCDATA)>
+]>
+<products>
+    <name>tonton mosi ky laddo</name>
+    <price>
+        <perkg>250$</perkg>
+        <perkg2>500$</perkg2>
+    </price>
+    <material>Behsan</material>
+    <address>
+        <village>dholakpur</village>
+        <area>chotki ka ghr</area>
+        <shopnumber>420</shopnumber>
+    </address>
+    <contact>
+        <email>dholakpur420@gmail.com</email>
+        <facebook>dholakpur</facebook>
+        <contactnumber>0900-78601</contactnumber>
+    </contact>
+</products>
