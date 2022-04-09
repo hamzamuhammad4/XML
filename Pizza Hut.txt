@@ -1,0 +1,13 @@
+{
+  "Resturent name" :"Pizza hut",
+  "Branches" : ["karchi,Hyderabad,Lahore,faisalababd,kashmir"],
+  "Total Branshes" : 5,
+  "Main Item" : ["Tikka,Fajita,Peproni,Moglai"],
+  "Chicken tikka" : {
+    "size" : ["Regular","Large"],
+    "Price" : { 
+      "Regular" : 750,
+      "Large" : 999
+    }
+  }
+}
